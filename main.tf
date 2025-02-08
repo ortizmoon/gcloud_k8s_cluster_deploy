@@ -24,7 +24,7 @@ resource "google_compute_firewall" "k8s_firewall" {
 }
 
 resource "google_compute_instance" "k8s_controller" {
-  count        = 3
+  count        = 1
   name         = "controller-${count.index}"
   machine_type = "e2-small"
   zone         = var.zone
