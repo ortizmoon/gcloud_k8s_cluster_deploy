@@ -1,0 +1,16 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.tfstate.lock*
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.tfplan.*
+crash.log
+crash.*.log
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+.DS_Store
+/kubespray
+/venv
